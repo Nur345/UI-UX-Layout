@@ -1,0 +1,32 @@
+ /* page-layout-start  */
+  .notification-pending-invitations {
+    display: none;
+} 
+  .notification-main-container{
+    padding: 20px;
+ } /* page-layout-end   */
+ 
+ @media screen and (min-width: 1024px) {
+     /* page-layout-start  */
+    .notification-pending-invitations {
+        display: block;
+    }
+    .notification-main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }/* page-layout-end  */
+} 
+
+@media screen and (min-width: 1440px) {
+    /* page-layout-start  */
+    .notification-pending-invitations {
+        display: block;
+    }
+    .notification-main-container {
+        display: flex;
+        min-width: 1200px;
+        width: 1200px;
+        margin: 0 auto;
+    }/* page-layout-end  */
+}
